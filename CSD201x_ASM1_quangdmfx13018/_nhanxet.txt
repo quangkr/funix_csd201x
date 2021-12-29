@@ -1,0 +1,27 @@
+Hiệu năng của 3 thuật toán với các kiểu dữ liệu theo thứ tự
+- Dữ liệu sắp xếp xuôi: Bubble ~ Insertion -> Selection
+- Dữ liệu sắp xếp ngược: Selection -> Insertion -> Bubble
+- Dữ liệu ngẫu nhiên: Insertion -> Selection -> Bubble
+
+
+Time complexity của 3 thuật toán
+
+- Bubble sort:
+  + Worst case: O(n^2), xảy ra khi dữ liệu được sắp xếp ngược,
+do thuật toán sử dụng nested loop và phải đổi chỗ từng phần tử
+  + Average case: O(n^2), do thuật toán sử dụng nested loop,
+hơn nữa không thể tối ưu hóa cho những phần đã được sắp xếp sẵn
+của dữ liệu đầu vào
+  + Best case: O(n), xảy ra khi dữ liệu được sắp xếp sẵn,
+thuật toán chỉ cần 1 lần loop
+
+- Selection sort: Worst case, average case, best case đều có time complexity là O(n^2), do thuật toán sử dụng nested loop và phải qua đủ số vòng lặp kể cả trong best case. Tuy nhiên hiệu năng cao hơn Bubble sort do số lần đổi chỗ phần tử ít hơn
+
+- Insertion sort:
+  + Worst case: O(n^2), xảy ra khi dữ liệu được sắp xếp ngược,
+do thuật toán sử dụng nested loop và phải đổi chỗ từng phần tử
+  + Average case: O(n^2), do thuật toán sử dụng nested loop,
+tuy nhiên hiệu năng cao hơn Bubble sort do số lần đổi chỗ phần tử
+ít hơn, và tận dụng tốt những phần đã sắp xếp sẵn của dữ liệu
+  + Best case: O(n), xảy ra khi dữ liệu được sắp xếp sẵn,
+thuật toán chỉ cần 1 lần loop
